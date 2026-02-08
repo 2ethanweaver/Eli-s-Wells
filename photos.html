@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Photos | Eli's Wells</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        /* --- NEW MASONRY GALLERY --- */
+        .gallery {
+            column-count: 3;
+            column-gap: 20px;
+            padding: 20px 40px 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            break-inside: avoid;
+        }
+
+        /* Responsive columns */
+        @media (max-width: 900px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-bottom: 40px;
+            text-decoration: none;
+            color: #2c7be5;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Project Photos</h1>
+        <p>Clean water making a real difference</p>
+    </header>
+
+    <div class="gallery">
+        <img src="images/Screenshot 2026-01-16 164935.png" alt="Water storage tank installed by Eli's Wells">
+        <img src="images/Screenshot 2026-01-16 165144.png" alt="Hand pump well built by Eli's Wells">
+        <img src="images/Screenshot 2026-01-20 174429.png" alt="Logo of Eli's Wells">
+        <img src="images/Screenshot 2026-02-05 151337.png" alt="Fetching water with Jared Stein">
+        <img src="images/Screenshot 2026-02-05 151410.png" alt="Well project">
+        <img src="images/Screenshot 2026-02-05 151442.png" alt="Well exploration">
+        <img src="images/Screenshot 2026-02-05 151503.png" alt="The team and a new well!">
+        <img src="images/Screenshot 2026-02-05 151613.png" alt="Pump well built by Eli's Wells">
+        <img src="images/Screenshot 2026-02-05 151655.png" alt="Dirty Water hole">
+        <img src="images/Screenshot 2026-02-05 151744.png" alt="Hitting water!">
+        <img src="images/Screenshot 2026-02-05 152113.png" alt="Pictures with those the Well will help">
+        <img src="images/Screenshot 2026-02-05 152126.png" alt="Grateful recipients of clean water">
+        <img src="images/Screenshot 2026-02-05 152217.png" alt="Location of a future well">
+        <img src="images/Screenshot 2026-02-05 151814.png" alt="Location of a future well">
+        <img src="images/Screenshot 2026-02-05 151902.png" alt="Location of a future well">
+        <img src="images/Screenshot 2026-02-05 151928.png" alt="Location of a future well">
+
+        <img src="images/Screenshot 2026-02-05 152254.png" alt="Discovering dirty water, clean water makes a difference!">
+    </div>
+
+    <a href="index.html">← Back to Home</a>
+
+</body>
+</html>
